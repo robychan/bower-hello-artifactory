@@ -1,0 +1,26 @@
+{
+  "name": "bower-hello-artifactory",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "~1.10.2"
+  },
+  "homepage": "https://github.com/robychan/bower-hello-artifactory",
+  "description": "A simple hello-world bower package iThink",
+  "main": "",
+  "keywords": [
+    "hello",
+    "bower",
+    "artifactory"
+  ],
+  "authors": [
+    "Roby George"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
