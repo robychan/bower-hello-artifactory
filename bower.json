@@ -5,7 +5,7 @@
   "description": "Just a random JS file that doesn't really need jQuery",
   "main": "js/hello-world.js",
   "dependencies": {
-    "jquery": ">=3.1.0"
+    "jquery": ">=333.10.2"
   },
   "keywords": [
     "hello",
