@@ -1,19 +1,22 @@
 {
   "name": "bower-hello-artifactory",
-  "version": "0.0.1",
+  "description": "Just a random JS file that doesn't really need jQuery",
+  "main": [
+    "js/hello-world.js"
+  ],
   "dependencies": {
-    "jquery": "~1.10.2"
+    "jquery": "~3.2.0"
   },
-  "homepage": "https://github.com/robychan/bower-hello-artifactory",
-  "description": "A simple hello-world bower package iThink",
-  "main": "",
-  "keywords": [
+  "devDependencies": {
+    "qunit": "~1.16.0"
+  }
     "hello",
     "bower",
-    "artifactory"
+    "artifactory",
+    "world"
   ],
   "authors": [
-    "Roby George"
+    "Roby George <roby.george@hotmail.com>"
   ],
   "license": "MIT",
   "ignore": [
@@ -22,5 +25,10 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robychan/bower-hello-artifactory.git"
+  }
 }
