@@ -1,5 +1,10 @@
 #!/bin/sh
 
+## Not the best packer/helper script but it does the job
+## It packs the the files into a tar with the right folder structure
+## It also cleans any temporary files and even the tar file as long as the files haven't been moved or renamed
+## It basically deletes the file which it built, so if there is any file that has the names of the files this script created, it WILL be deleted if cleaning using this scipt, so beware!
+
 if [ "$#" -eq "0" -o "$1" == "--build" -o "$1" == "-b" ]
 then
 	if [ -f bower.json ]
